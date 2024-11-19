@@ -14,23 +14,33 @@
 
 <body>
     <!-- header -->
-     <header>
+     <header class="active">
         <a href="#" class="logo">Portfolio.</a>
 
         <i class='bx bx-menu' id="menu-icon"></i>
 
-        <!-- bars background -->
          <nav>
             <a href="#" class="active">Home</a>
-            <a href="#">Services</a>
             <a href="#">Resume</a>
             <a href="#">Portfolio</a>
+            <a href="#">Services</a>
             <a href="#">Contact</a>
          </nav>
      </header>
 
+     <!-- bars background -->
+
+     <div class="bars-box active">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+     </div>
+
     <!-- home section -->
-     <section class="home">
+     <section class="home active">
         <div class="home-detail">
             <h1>Fathima Najma</h1>
             <h2>I'm a 
@@ -40,7 +50,7 @@
             <div class="btn-sci">
                 <a href="images/home.png" class="btn">Download CV</a>
                 <div class="sci">
-                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="https://github.com/NAJMA845"><i class='bx bxl-github'></i></a>
                     <a href="#"><i class='bx bxl-linkedin' ></i></a>
                 </div>
             </div>
@@ -54,6 +64,249 @@
                 </div>
         </div>
      </section>
+
+
+      <!-- resume section -->
+      <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2> Why Hiring Me?</h2>
+                <p class="desc">
+                    I merge creativity and technical expertise to create user-focused solutions, promote teamwork, and ensure project success.</p>
+                <button class="resume-btn">Projects</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+            <div class="resume-box">
+                <div class="resume-detail project active">
+                    <h2 class="heading">My <span> Projects</span></h2>
+                    <br>
+                <div class="resume-list">
+                    <div class="resume-item">
+                        <p class="year">2024 - present</p>
+                        <h3>Fullstack Developer (Undergraduate)</h3>
+                        <p class="project">Library Management System</p>
+                        <p class="desc">Designed and developed a library management system in PHP, featuring efficient book borrowing and return tracking capabilities.</p>
+                    </div>
+                    
+
+                    <div class="resume-item">
+                        <p class="year">June 2023- Dec 2023 </p>
+                        <h3>SLASSCOM Bootcamp Participant - Full Stack Developement</h3>
+                        <p class="project">Phone Book App</p>
+                        <p class="desc">Developed a full-stack Phone Book App with a user-friendly interface, integrating front-end design, back-end functionality, and MongoDB for contact management.</p>
+                    </div>
+
+                    <div class="resume-item">
+                        <p class="year">2023 - 2024</p>
+                        <h3>React.js Front-End Developer (Undergraduate)</h3>
+                        <p class="project">Gemini Clone App</p>
+                        <p class="desc">Developed a web-based app using React.js and the Gemini API, showcasing modern web development practices and dynamic functionality.</p>
+                    </div>
+                    
+                    <div class="resume-item">
+                        <p class="year">2023 - 2024</p>
+                        <h3>Java Developer (Undergraduate)</h3>
+                        <p class="project">Tic Tac Toe Game</p>
+                        <p class="desc">Developed a Tic Tac Toe game in Java, focusing on game logic, user interaction, and smooth gameplay.</p>
+                    </div>
+                    
+                    <div class="resume-item">
+                        <p class="year">2023 - 2024</p>
+                        <h3>Algorithm Developer (Undergraduate)</h3>
+                        <p class="project">Algorithm Implementation - Shortest Path Finder</p>
+                        <p class="desc">Implemented Dijkstra's Algorithm in Java to find the shortest path in a graph, demonstrating problem-solving and algorithm design skills.</p>
+                    </div>                    
+                </div>
+          </div>
+
+                <div class="resume-detail education">
+                    <h2 class="heading">My <span> Education</span></h2>
+                    <br>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">Jan 2022 - Dec 2025</p>
+                            <h3> Reading Bachelor of Software Engineering</h3>
+                            <p class="project">Open University of Sri Lanka</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">Jan 2022 - Dec 2022</p>
+                            <h3>Diploma in ICT</h3>
+                            <p class="project">ICBT Campus</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">Jan 2016 - Dec 2017</p>
+                            <h3>Ordinary Level & Advanced Level</h3>
+                            <p class="project">Muslim Ladies' College, Colombo</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">Jan 2017 - Dec 2020</p>
+                            <h3> Advanced Level</h3>
+                            <p class="project">Muslim Ladies' College, Colombo</p>
+                        </div>
+                      </div>
+                </div>  
+                        
+                <div class="resume-detail skills">
+                    <h2 class="heading">My <span> Skills</span></h2>
+                    <br>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <i class='bx bxs-file-html'></i>
+                            <span>HTML</span>
+                        </div>
+
+                        <div class="resume-item">
+                            <i class='bx bxs-file-css' ></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-javascript' ></i>
+                            <span>Javascript</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-php'></i>
+                            <span>php</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-react' ></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-java' ></i>
+                            <span>Java</span>
+                        </div>
+
+                        <div class="resume-item">
+                            <i class='bx bxl-github'></i>
+                            <span>GitHub</span>
+                        </div>
+
+                        <div class="resume-item">
+                            <i class='bx bxl-vuejs' ></i>
+                            <span>Vue.js</span>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="resume-detail about">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <br>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p>Name<span>Najma Muzammil</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Gender<span> Female</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Phone<span>(+94) 0778208218</span></p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p>Email<span>najmamuzammil734@gmail.com</span></p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p>Language<span>English , Tamil , Sinhala</span></p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p>Address<span> Kalubowila Dehiwala</span></p>
+                        </div>
+              </div>
+          </div>
+     </section>
+
+      <!-- portfolio section -->
+      <section class="portfolio">
+        <h2 class="heading">Latest <span> Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-detail active">
+                    <p class="numb">01</p>
+                    <h3>Library Management System</h3>
+                    <p>Developed a Library Management System in PHP with features for book and student management, loan tracking, subscription plans, and purchase history. It also included profile management and secure password update for an efficient and user-friendly borrowing and return process.</p>
+                    <div class="tech">
+                        <p> HTML , CSS , Bootstrap , PHP, MYSQL</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="https://github.com/NAJMA845/lms.git"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">02</p>
+                    <h3>Gemini Clone App</h3>
+                    <p>Developed a web-based application using React.js and the Gemini API, integrating real-time data handling and dynamic functionality to showcase modern web development practices. As an undergraduate, contributed to designing an intuitive user interface, 
+                     implementing responsive layouts, and optimizing performance to deliver a seamless user experience.</p>
+                    <div class="tech">
+                        <p> React.js , Gemini API , HTML , CSS </p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="https://github.com/NAJMA845/gemini-clone-app.git"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">03</p>
+                    <h3>Algorithm Implementation - Shortest Path Finder</h3>
+                    <p>Implemented Dijkstra's Algorithm in Java to find the shortest path in a graph, demonstrating problem-solving and algorithm design skills.</p>
+                    <div class="tech">
+                        <p> HTML, CSS , JavaScript , DOM Manipulation</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="https://github.com/NAJMA845/dijkstra-algorithm_shortest-path-finder.git"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">04</p>
+                    <h3>Tic Tac Toe Game</h3>
+                    <p>Developed a Tic Tac Toe game in Java, focusing on game logic, user interaction, and smooth gameplay.</p>
+                    <div class="tech">
+                        <p> Java </p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="https://github.com/NAJMA845/tic_tac_toe_game.git"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+                <div class="portfolio-detail">
+                    <p class="numb">06</p>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <div class="portfolio-carousel">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <img src="images/portfolio1.png" alt="">
+                        </div>
+                        <div class="img-item">
+                            <img src="images/portfolio2.jpg" alt="">
+                        </div>
+                        <div class="img-item">
+                            <img src="images/portfolio3.png" alt="">
+                        </div>
+                        <div class="img-item">
+                            <img src="images/portfolio4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="navigation">
+                    <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
+                    <button class="arrow-right"><i class='bx bx-chevron-right'></i></button>
+                </div>
+                
+            </div>
+        </div>
+       </section>
+
+
     <!-- services section -->
      <section class="services">
         <h2 class="heading">My <span> Services </span></h2>
@@ -116,105 +369,50 @@
         </div>
      </section>
 
-    <!-- resume section -->
-     <section class="resume active">
-        <div class="resume-container">
-            <div class="resume-box">
-                <h2> Why Hiring Me?</h2>
-                <p class="desc">
-                    I merge creativity and technical expertise to create user-focused solutions, promote teamwork, and ensure project success.</p>
-                <button class="resume-btn">Experience</button>
-                <button class="resume-btn">Education</button>
-                <button class="resume-btn">Skills</button>
-                <button class="resume-btn">About Me</button>
-            </div>
-            <div class="resume-box">
-                <div class="resume-detail experience active">
-                    <h2 class="heading">My <span> Experience</span></h2>
-                    <p class="desc">I am a passionate developer combining creativity and technical expertise to craft innovative full-stack, game, and algorithm solutions that enhance user experiences.</p>
-                <div class="resume-list">
-                    <div class="resume-item">
-                        <p class="year">2024 - present</p>
-                        <h3>Fullstack Developer</h3>
-                        <p class="project">Library Management System</p>
-                        <p class="desc">Developed a library management system in PHP, with features like book borrowing and return tracking.</p>
+    <!-- contact section -->
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Let's Work Together</h2>
+            <div class="contact-detail">
+                    <i class="bx bxs-phone"></i>
+                    <div class="detail">
+                        <p>Phone</p>
+                        <p>(+94)0778208218</p>
                     </div>
-                    
-                    <div class="resume-item">
-                        <p class="year">2023 - 2024</p>
-                        <h3>Front End Developer</h3>
-                        <p class="project">Gemini Clone App</p>
-                        <p class="desc">Developed a web-based app using React.js and the Gemini API, showcasing modern web development practices and dynamic functionality.</p>
+                 </div>
+                 <div class="contact-detail">
+                    <i class="bx bxs-envelope"></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>najmamuzammil734@gmail.com</p>
                     </div>
-                    
-                    <div class="resume-item">
-                        <p class="year">2023 - 2024</p>
-                        <h3>Developer</h3>
-                        <p class="project">Tic Tac Toe Game</p>
-                        <p class="desc">Developed a Tic Tac Toe game in Java, focusing on game logic, user interaction, and smooth gameplay.</p>
-                    </div>
-                    
-                    <div class="resume-item">
-                        <p class="year">2023 - 2024</p>
-                        <h3>Algorithm Developer</h3>
-                        <p class="project">Shortest Path Finder</p>
-                        <p class="desc">Implemented Dijkstra's Algorithm in Java to find the shortest path in a graph, demonstrating problem-solving and algorithm design skills.</p>
-                    </div>                    
                 </div>
+            <div class="contact-detail">
+                <i class="bx bxs-map"></i>
+                <div class="detail">
+                    <p><Address></Address></p>
+                    <p>Kalubowila Dehiwala</p>
+                </div>
+             </div>
           </div>
 
-                <div class="resume-detail education">
-                    <h2 class="heading">My <span> Education</span></h2>
-                    <p class="desc">  Completed a 6-month intensive bootcamp focused on full-stack development. Gained hands-on experience in building robust web applications using:</p>
-                    <div class="resume-list">
-                        <div class="resume-item">
-                            <p class="year">2024 - present</p>
-                            <h3>Fullstack Developer</h3>
-                            <p class="project">Library Management System</p>
-                            <p class="desc">Developed a library management system in PHP, with features like book borrowing and return tracking.</p>
-                        </div>
-                           
-                        <div class="resume-item">
-                            <p class="year">2024 - present</p>
-                            <h3>Fullstack Developer</h3>
-                            <p class="project">Library Management System</p>
-                            <p class="desc">Developed a library management system in PHP, with features like book borrowing and return tracking.</p>
-                        </div>
-
-                        <div class="resume-item">
-                            <p class="year">2024 - present</p>
-                            <h3>Fullstack Developer</h3>
-                            <p class="project">Library Management System</p>
-                            <p class="desc">Developed a library management system in PHP, with features like book borrowing and return tracking.</p>
-                        </div>
-
-                        <div class="resume-item">
-                            <p class="year">2024 - present</p>
-                            <h3>Fullstack Developer</h3>
-                            <p class="project">Library Management System</p>
-                            <p class="desc">Developed a library management system in PHP, with features like book borrowing and return tracking.</p>
-                        </div>
+            <div class="contact-box">
+               <form action="">
+                <h2 class="heading">Contact <span>Me!</span></h2>
+                <div class="field-box">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="text" placeholder="Phone Number" required>
+                    <input type="text" placeholder="Email Subject" required>
+                    <textarea name="" id="" placeholder="Your Message" required></textarea>
                 </div>
-          
+                <button type="submit" class="btn">Send Message</button>
+               </form>
+            </div>                
 
-           
-                <div class="resume-detail skills">
-                    <h2 class="heading">My <span> Skills</span></h2>
-                    <p class="desc">  Completed a 6-month intensive bootcamp focused on full-stack development. Gained hands-on experience in building robust web applications using:</p>
-                </div>
-          
-
-                <div class="resume-detail about ">
-                    <h2 class="heading">About <span> Me</span></h2>
-                    <p class="desc">  Completed a 6-month intensive bootcamp focused on full-stack development. Gained hands-on experience in building robust web applications using:</p>
-                </div>
-            </div>
-     </section>
-
-    <!-- portfolio section -->
-
-    <!-- contact section -->
-    
+        </div>
+    </section>
 
     <!-- custom js -->
     <script src="js/script.js"></script>
